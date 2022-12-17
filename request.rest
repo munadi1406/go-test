@@ -1,0 +1,16 @@
+GET  http://localhost:5000/users
+
+###
+GET  http://localhost:5000/
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name":"adminmn",
+    "email":"jamalbaga@gmail.com",
+    "password":"Munadi1406!",
+    "confPassword":"Munadi1406!"
+}
